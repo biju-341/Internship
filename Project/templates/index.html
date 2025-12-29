@@ -1,0 +1,11 @@
+<html>
+    <head><script type="text/javascript" src="{{url_for('static',filename='hello.js')}}"></script>
+    </head>
+        <body>
+        <form action="/submit" method="POST">
+            <input type="button" onclick="sayHello()" value="Say Hello"/>
+            <input type="text" name="peru" placeholder="Enter your name"/>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
